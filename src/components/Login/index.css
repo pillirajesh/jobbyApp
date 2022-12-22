@@ -1,0 +1,74 @@
+.app-container {
+  background-color: #000000;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #202020;
+  height: 70vh;
+  width: 60%;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+.login-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.label {
+  font-family: 'roboto';
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 15px;
+}
+
+.input {
+  background-color: transparent;
+  font-family: 'roboto';
+  font-weight: 300;
+  color: #7e858e;
+  border: 1px solid #7e858e;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.login-button {
+  border-radius: 5px;
+  border: none;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 300;
+  padding: 10px;
+  width: 350px;
+  height: 45px;
+  margin-top: 17px;
+  cursor: pointer;
+  outline: none;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.error-message {
+  font-family: 'roboto';
+  font-weight: 400;
+  color: #ff0b37;
+  font-size: 16px;
+}
